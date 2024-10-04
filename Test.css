@@ -12,15 +12,15 @@
   --color-bodytext:#565973 ;
   --color-navigation:#33354D ;
   --color-headingdark: #0B0F19;
-  /* Brand */
+
   --color-primary:#6366F1 ;
   --color-gradient:# ;
-  /* System */
+
   --color-error:#EF4444 ;
   --color-success:#22C55E ;
   --color-warning:#EF9A44 ;
   --color-info:#4C82F7 ;
-  /* Shadows */
+
   --color-S:#FFFFFF ;
   --color-M:#FFFFFF ;
   --color-L:#FFFFFF ;
@@ -194,7 +194,7 @@ body {
 .download-btn {
   display: flex;
   gap: 20px;
-  margin-bottom: 140px; /* Lägger till mellanrum mellan knappar och Discover more */
+  margin-bottom: 140px; 
 }
 
 .download-btn img {
@@ -213,16 +213,15 @@ body {
 }
 
 .discover-more {
-  text-align: center;  /* Centrerar Discover more-ikonen under knapparna */
-  margin-top: 20px;    /* Mellanrum ovanför Discover more-ikonen */
+  text-align: center;  
+  margin-top: 20px;    
   width: 40px;
   height: 40px;
 }
 
 /* Logo Section */
 .logo-section {
-  padding: 60px 0; /* Ger lite utrymme ovanför och under logotyperna */
-  /* text-align: center; Centrerar bilden horisontellt */
+  padding: 60px 0; 
 }
 
 .logo-section .container {
@@ -230,14 +229,14 @@ body {
 }
 
 .logo-section img {
-  max-width: 100%; /* Gör att bilden inte överstiger sidans bredd */
-  height: auto;    /* Gör att bildens proportioner bevaras */
-  opacity: 0.8;    /* Lätt transparens för en mjukare look */
-  transition: opacity 0.3s ease; /* Lägger till en övergång för hover-effekten */
+  max-width: 100%; 
+  height: auto;   
+  opacity: 0.8;   
+  transition: opacity 0.3s ease; 
 }
 
 .logo-section img:hover {
-  opacity: 1;  /* Gör bilden helt opak när man hovrar över den */
+  opacity: 1;  
 }
 
 /* App Features Section */
@@ -249,12 +248,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px; /* Lägg till ett gap för att skapa mellanrum mellan kolumnerna */
+  gap: 40px; 
 }
 
 .features-image {
   flex: 0 1 35%;
-  text-align: left; /* Flytta bilden till vänster */
+  text-align: left; 
 }
 
 .features-image img {
@@ -283,15 +282,15 @@ body {
 /* Grid-layout för funktionslistan */
 .features-list {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Två kolumner */
-  gap: 30px 40px; /* Ger utrymme mellan rader och kolumner */
-  align-items: start; /* Justerar alla texter och ikoner på samma höjd */
+  grid-template-columns: 1fr 1fr; 
+  gap: 30px 40px; 
+  align-items: start; 
 }
 
 .feature {
   display: grid;
-  grid-template-columns: 50px 1fr; /* Ikonen tar upp 50px, texten tar resten */
-  gap: 20px; /* Mellanrum mellan ikonen och texten */
+  grid-template-columns: 50px 1fr; 
+  gap: 20px; 
   margin-bottom: 40px;
 }
 
@@ -316,65 +315,61 @@ body {
 
 /* How Does It Work Section */
 .how-it-works {
-  background-color: #F3F6FF; /* Bakgrundsfärg */
-  text-align: center; /* Centrera all text */
-  padding: 60px 0; /* Utrymme ovanför och under sektionen */
+  background-color: #F3F6FF; 
+  text-align: center; 
+  padding: 60px 0; 
 }
 
-/* H1 - How Does It Work */
 .how-it-works h1 {
-  font-size: 2.5em; /* Storlek på H1 */
+  font-size: 2.5em; 
   color: #333;
-  margin-bottom: 40px; /* Avstånd mellan H1 och bilderna */
+  margin-bottom: 40px; 
 }
 
-/* Mobilbilderna */
 .phone-images {
   display: flex;
-  justify-content: center; /* Centrera alla bilder */
-  gap: 40px; /* Jämnt avstånd mellan bilderna */
-  margin-bottom: 40px; /* Utrymme mellan bilderna och H4 */
+  justify-content: center; 
+  gap: 40px; 
+  margin-bottom: 40px; 
 }
 
 .phone-images img {
   width: auto;
-  max-width: 250px; /* Justera efter önskad maxbredd */
+  max-width: 250px; 
   height: auto;
 }
 
-/* H4 - Latest transaction history */
 .transaction-info h4 {
-  font-size: 1.8em; /* Storlek på H4 */
+  font-size: 1.8em; 
   color: #333;
-  margin-bottom: 10px; /* Utrymme mellan H4 och <p> */
+  margin-bottom: 10px; 
 }
 
-/* P - Beskrivande text */
+
 .transaction-info p {
-  font-size: 1.1em; /* Storlek på <p> */
+  font-size: 1.1em; 
   color: #6c757d;
-  max-width: 600px; /* För att texten inte ska bli för bred */
-  margin: 0 auto; /* Centrera texten horisontellt */
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 /* Money Transfer Section */
 .money-transfer-section {
-  background-color: #ffffff; /* Bakgrundsfärg */
+  background-color: #ffffff; 
   padding: 60px 0;
 }
 
 .money-transfer-section .container {
-  max-width: 800px; /* Smalare container för denna sektion */
+  max-width: 800px; 
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Flexbox layout för kolumner */
 .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px; /* Avstånd mellan övre och nedre sektion */
+  margin-bottom: 60px; 
 }
 
 .text-block {
@@ -388,14 +383,14 @@ body {
   margin-bottom: 20px;
 }
 
-/* Listan med funktioner och checkmarks */
+
 .text-block ul.features-list {
   list-style-type: none;
   padding: 0;
   margin-bottom: 20px;
   display: flex;
-  flex-direction: column; /* Se till att alla list-element staplas vertikalt */
-  gap: 10px; /* Lägger till lite mellanrum mellan raderna */
+  flex-direction: column; 
+  gap: 10px; 
 }
 
 .text-block ul.features-list li {
@@ -403,16 +398,15 @@ body {
   color: #6c757d;
   margin-bottom: 10px;
   display: flex;
-  align-items: center; /* Centrerar checkmark och text vertikalt */
+  align-items: center; 
 }
 
 .features-list li img {
   width: 24px;
   height: 24px;
-  margin-right: 10px; /* Lägg till mer mellanrum mellan SVG och texten */
+  margin-right: 10px; 
 }
 
-/* Lär mer knapp */
 .learn-more-btn {
   display: inline-block;
   background-color: #4f46e5;
@@ -434,7 +428,6 @@ body {
   height: auto;
 }
 
-/* Ikoner och text i andra kolumnen */
 .icons-list {
   display: flex;
   gap: 30px;
@@ -458,7 +451,7 @@ body {
 
 /* Testimonials Section */
 .testimonials-section {
-  background-color: #F3F6FF; /* Bakgrundsfärgen */
+  background-color: #F3F6FF; 
   padding: 100px 0;
   position: relative;
 }
@@ -477,32 +470,31 @@ body {
 }
 
 .testimonials-header h2 {
-  font-size: 2.2em; /* Öka textstorlek */
-  font-weight: 900; /* Gör texten fet */
-  line-height: 1.1; /* Minska avståndet mellan raderna */
+  font-size: 2.2em; 
+  font-weight: 900; 
+  line-height: 1.1; 
   color: #333;
   margin: 0;
   padding: 0;
 }
 
-/* Boxar som håller vittnesmål */
 .testimonials-boxes {
   flex: 1 0 70%;
   display: flex;
   justify-content: space-between;
-  gap: 20px; /* Mellanrum mellan boxarna */
+  gap: 20px; 
 }
 
 .testimonial-container {
-  position: relative; /* Viktigt för att absolut positionering av citattecknen ska fungera */
+  position: relative; 
 }
 
 .testimonial-box {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtil skugga */
-  width: 100%; /* Varje box tar upp 48% av containerbredden */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 100%; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -514,11 +506,10 @@ body {
   height: auto;
 }
 
-/* Positionering av citattecknet */
 #quote-icon-wrapper {
   position: absolute;
-  top: 70px; /* Flyttar citattecknet upp */
-  left: 790px; /* Flyttar citattecknet till vänster */
+  top: 70px; 
+  left: 790px; 
   width: 60px;
   height: 60px;
   z-index: 10;
@@ -571,9 +562,6 @@ body {
   line-height: 0;
 }
 
-
-
-/* FAQ Sektion */
 .faq-section {
   padding: 70px 0px;
   background-color: #ffffff; 
@@ -588,7 +576,6 @@ body {
   gap: 120px;
 }
 
-/* Vänster kolumn */
 .faq-left-column {
   flex: 1;
 }
@@ -607,7 +594,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* Kontaktboxar */
 .contact-options {
   display: flex;
   gap: 20px;
@@ -636,7 +622,6 @@ body {
   margin-right: 130px;
 }
 
-/* Styling för texten */
 .contact-box p {
   font-size: 0.9em;
   color: #6c757d;
@@ -645,7 +630,6 @@ body {
   text-align: left;
 }
 
-/* Styling för länkar */
 .contact-box a {
   text-decoration: none;
   font-weight: bold;
@@ -654,16 +638,14 @@ body {
   gap: 5px;
 }
 
-/* Länkfärger för respektive box */
 .contact-box:first-child a {
-  color: #6366F1; /* Lila för telefon */
+  color: #6366F1; 
 }
 
 .contact-box:last-child a {
-  color: #22C55E; /* Grön för chat */
+  color: #22C55E; 
 }
 
-/* Höger kolumn */
 .faq-right-column {
   flex: 1.5;
 }
@@ -683,7 +665,6 @@ body {
   background-color: #f9fafb;
 }
 
-/* Fråga (FAQ) */
 .faq-question {
   display: flex;
   justify-content: space-between;
@@ -703,23 +684,20 @@ body {
   transition: transform 0.3s ease;
 }
 
-/* Svar (FAQ) */
 .faq-answer {
   margin-top: 10px;
   font-size: 1em;
   color: #6c757d;
-  display: block; /* Sätt till 'none' om du vill dölja som standard */
+  display: block; 
 }
 
-/* Aktiv FAQ-fråga */
 .faq-item.active .faq-question img {
-  transform: rotate(180deg); /* Ändrar pilarna för aktiv fråga */
+  transform: rotate(180deg); 
 }
 
 .faq-item.active .faq-answer {
   display: block;
 }
-
 
 /* Subscribe Section */
 .subscribe-wrapper {
@@ -729,7 +707,7 @@ body {
 }
 
 .subscribe-section {
-  background-color: #F3F6FF; /* Ljussblå bakgrundsfärg */
+  background-color: #F3F6FF; 
   height: 180px;
   display: flex;
   align-items: center;
@@ -737,34 +715,32 @@ body {
 }
 
 .subscribe-section .container {
-  max-width: 1296px; /* Maximal bredd på sektionen */
-  margin: 0 auto; /* Centrera innehållet */
-  display: flex; /* Flexbox för att justera layouten */
-  justify-content: center; /* Utrymme mellan vänster och höger */
-  align-items: center; /* Justera element på samma vertikala nivå */
-  gap: 100px; /* Mellanrum mellan kolumnerna */
+  max-width: 1296px; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 100px; 
 }
 
-/* Vänster kolumn: Ikon och text */
 .subscribe-left {
   display: flex;
   align-items: center;
   padding-left: 150px;
-  gap: 10px; /* Mellanrum mellan ikon och text */
+  gap: 10px; 
 }
 
 .subscribe-left .subscribe-icon {
-  width: 60px; /* Justera storleken på klockikonen */
+  width: 60px; 
 }
 
 .subscribe-left p {
   font-size: 1.2em;
-  color: #333; /* Mörkgrå färg för text */
-  font-weight: 900; /* Gör texten lite fet */
+  color: #333; 
+  font-weight: 900; 
   margin: 0;
 }
 
-/* Höger kolumn: Formulär */
 .subscribe-right {
   display: flex;
   align-items: center;
@@ -775,51 +751,49 @@ body {
   display: flex;
 }
 
-/* E-postikon och inmatningsfält */
 .input-group {
   display: flex;
   align-items: center;
-  background-color: white; /* Vit bakgrund för input */
+  background-color: white; 
   padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtil skugga */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .input-group .email-icon {
-  width: 24px; /* Justera storleken på e-postikonen */
+  width: 24px; 
   margin-right: 10px;
 }
 
 .input-group input {
-  border: none; /* Ta bort standardram */
-  outline: none; /* Ta bort standardfokus */
+  border: none; 
+  outline: none; 
   font-size: 1em;
 }
 
-/* Prenumerationsknapp */
 .subscribe-form button {
-  background-color: #4f46e5; /* Lila färg */
-  color: white; /* Vit text */
-  border: none; /* Ta bort standardram */
-  padding: 10px 20px; /* Storlek på knappen */
-  cursor: pointer; /* Förändra muspekaren vid hover */
-  transition: background-color 0.3s ease; /* Transitionseffekt för hover */
+  background-color: #4f46e5; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
 .subscribe-form button:hover {
-  background-color: #6366f1; /* Ljusare lila vid hover */
+  background-color: #6366f1; 
 }
 
 /* Footer */
 .site-footer {
-  background-color: #ffffff; /* Vit bakgrundsfärg */
-  text-align: center; /* Centrera texten */
-  padding: 30px 0; /* Utrymme ovanför och nedanför texten */
-  font-size: 0.8em; /* Justera textstorleken */
-  color: #6c757d; /* Grå textfärg */
+  background-color: #ffffff; 
+  text-align: center; 
+  padding: 30px 0; 
+  font-size: 0.8em; 
+  color: #6c757d; 
 }
 
 .site-footer .container {
-  max-width: 1200px; /* Maximala bredden på footern */
-  margin: 0 auto; /* Centrera innehållet */
-  padding: 0 20px; /* Liten sidopadding */
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px;
 }
