@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+  /* Färger */
+  /* Grayscale 100-900 */
+  --color-lightBG:#F3F6FF ;
+  --color-secondary:#EFF2FC ;
+  --color-dividerborder:#E2E5F1 ;
+  --color-formsborder:#D4D7E5 ;
+  --color-inputplaceholder:#B4B7C9 ;
+  --color-mutedtext:#9397AD ;
+  --color-bodytext:#565973 ;
+  --color-navigation:#33354D ;
+  --color-headingdark: #0B0F19;
+  /* Brand */
+  --color-primary:#6366F1 ;
+  --color-gradient:# ;
+  /* System */
+  --color-error:#EF4444 ;
+  --color-success:#22C55E ;
+  --color-warning:#EF9A44 ;
+  --color-info:#4C82F7 ;
+  /* Shadows */
+  --color-S:#FFFFFF ;
+  --color-M:#FFFFFF ;
+  --color-L:#FFFFFF ;
+  --color-brandbtn:#6366F1 ;
+  --color-secondary:#EFF2FC ;
+
+  /* Oklart om detta är ett exempel */
+  --container-padding: 1rem;
+  --transition-time: all 0.2s;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: #00000000 (0, 0, 0, 0,)
+}
+
+body, section, div, header, footer, main, aside, nav, blockquote, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+/* Osäker på detta */
+a:hover{
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-L);
+  border-radius: 8px;
+  padding: 12px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: var(--color-bodytext);
+  color: var(--color-L);
+  text-decoration: none;
+}
+.btn-primary i {
+  margin-right: 0.5rem;
+}
+
+.btn-mobile {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.btn-toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-toggle-switch .label {
+  display: none;
+}
+
+.toggle.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 25px;
+}
+
+.toggle.switch input {
+  opacity: 0;
+}
+
+.toggle-switch input:checked + .slider {
+  background-color: var(--color-primary);
+}
+
+.toggle-switch input:focus + .slider {
+  box-shadow: 0 0 1px var(--color-primary);
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(18px);
+  background-color: var(--color-L);
+}
+
+.toggle-switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-mutedtext);
+  transition: all 0.2s;
+}
+
+.toggle-switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 2.5px;
+  background-color: var(--color-L);
+  transition: 0.2s;
+}
+
+.toggle-switch .slider.round {
+  border-radius: 35px;
+}
+
+.toggle-switch .slider.round:before {
+  border-radius: 50%;
+}

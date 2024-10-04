@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-container {
+  height: 50svh;
+  width: 100%;
+  /* Vi vill inte använda % eller fast värde i width */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+/* cover brukar vara det man är ute efter */
+
